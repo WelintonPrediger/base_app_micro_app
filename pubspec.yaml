@@ -1,0 +1,38 @@
+name: base_app_micro_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+micro_app_login:
+  git:
+    url: https://github.com/WelintonPrediger/micro_app_login.git
+    ref: v1.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^5.0.3
+  mobx: ^2.1.0
+  flutter_mobx: ^2.0.6+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  mobx_codegen: ^2.0.7+3
+  modular_test: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
