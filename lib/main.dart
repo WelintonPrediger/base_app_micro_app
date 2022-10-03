@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_modular/flutter_modular.dart';
+import 'package:micro_app_dependencies/main.dart';
+import 'package:micro_core/app/app_module.dart';
+import 'package:micro_core/app/app_widget.dart';
 
-import 'app/app_module.dart';
-import 'app/app_widget.dart';
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
 
-void main() => runApp(ModularApp(module: AppModule(), child: const AppWidget()));
+  runApp(ModularApp(module: AppModule(), child: const AppWidget()));
+}
