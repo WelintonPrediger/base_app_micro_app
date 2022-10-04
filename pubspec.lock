@@ -86,7 +86,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: b91c5a238ff71f20ffe47d87bebe7c2535388a62
+      resolved-ref: "153d998ccad1184a172381fb135b1186be5a1971"
       url: "https://github.com/WelintonPrediger/micro_app_login.git"
     source: git
     version: "0.0.1"
@@ -116,7 +116,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "24ae1f7f1131860e2bb52f57b12500a82c5cc80c"
+      resolved-ref: "891a3225a6fb49cfd90ac03fdc17fa81897c52a0"
       url: "https://github.com/WelintonPrediger/micro_app_dependencies.git"
     source: git
     version: "0.0.1"
@@ -125,7 +125,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "8fc4bf60e9adb6b1e0621dce7647f347d11d69e8"
+      resolved-ref: "8bcf250f3fcd7c5b21348ee9423cd2523d1553f8"
       url: "https://github.com/WelintonPrediger/micro_core.git"
     source: git
     version: "0.0.1"
@@ -150,6 +150,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.2"
+  module_home:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "3be85599afe55bc5ca7c00fa1ded977f6a0e7e7a"
+      url: "https://github.com/WelintonPrediger/micro_app_home.git"
+    source: git
+    version: "0.0.1"
   path:
     dependency: transitive
     description:
